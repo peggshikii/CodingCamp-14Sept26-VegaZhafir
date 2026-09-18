@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense &amp; Budget Visualizer</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Expense &amp; Budget Visualizer</h1>
+      <div id="balance-display" role="status" aria-live="polite">$0.00</div>
+    </header>
+
+    <main>
+      <div id="storage-error" role="alert"></div>
+
+      <section aria-labelledby="form-heading">
+        <h2 id="form-heading">Add Transaction</h2>
+        <form id="transaction-form" novalidate>
+          <div class="field-group">
+            <label for="item-name">Item Name</label>
+            <input id="item-name" name="itemName" type="text" maxlength="100" />
+            <span class="field-error" id="item-name-error" role="alert"></span>
+          </div>
+          <div class="field-group">
+            <label for="amount">Amount</label>
+            <input id="amount" name="amount" type="number" min="0.01"
+                   max="999999999.99" step="0.01" />
+            <span class="field-error" id="amount-error" role="alert"></span>
+          </div>
+          <div class="field-group">
+            <label for="category">Category</label>
+            <select id="category" name="category">
+              <option value="">-- Select Category --</option>
+              <option value="Food">Food</option>
+              <option value="Transport">Transport</option>
+              <option value="Fun">Fun</option>
+            </select>
+            <span class="field-error" id="category-error" role="alert"></span>
+          </div>
+          <button type="submit">Add Transaction</button>
+        </form>
+      </section>
+
+      <section aria-labelledby="list-heading">
+        <h2 id="list-heading">Transactions</h2>
+        <ul id="transaction-list" aria-label="Transaction list"></ul>
+      </section>
+
+      <section aria-labelledby="chart-heading">
+        <h2 id="chart-heading">Spending by Category</h2>
+        <div id="chart-container">
+          <canvas id="pie-chart" aria-label="Spending pie chart" role="img"></canvas>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+    <script src="js/app.js" defer></script>
+  </body>
+</html>

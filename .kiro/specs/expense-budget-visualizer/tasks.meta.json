@@ -1,0 +1,141 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "2.1 Write CSS custom properties, reset/base styles, and layout": [
+      {
+        "executionId": "3da1433b-073a-48b4-af7c-0034a6da0ec7",
+        "chatSessionId": "sess_c3da33ea-4544-4c0e-8582-e2909dc6289f",
+        "timestamp": 1789772630166
+      }
+    ],
+    "2. Implement CSS layout and visual styles": [
+      {
+        "executionId": "21087d63-f857-465c-bb0f-0b32a0606577",
+        "chatSessionId": "sess_9a11ea0c-6550-4310-a7a3-2bb15f661ab8",
+        "timestamp": 1789772730444
+      },
+      {
+        "executionId": "21087d63-f857-465c-bb0f-0b32a0606577",
+        "chatSessionId": "sess_9a11ea0c-6550-4310-a7a3-2bb15f661ab8",
+        "timestamp": 1789772919276
+      }
+    ],
+    "2.2 Style the balance display, form, validation errors, and transaction list": [
+      {
+        "executionId": "21087d63-f857-465c-bb0f-0b32a0606577",
+        "chatSessionId": "sess_9a11ea0c-6550-4310-a7a3-2bb15f661ab8",
+        "timestamp": 1789772913743
+      }
+    ],
+    "2.3 Style chart container, focus indicators, and responsive breakpoint": [
+      {
+        "executionId": "21087d63-f857-465c-bb0f-0b32a0606577",
+        "chatSessionId": "sess_9a11ea0c-6550-4310-a7a3-2bb15f661ab8",
+        "timestamp": 1789772918808
+      }
+    ],
+    "3.1 Define `CATEGORIES`, `CATEGORY_COLORS`, and `STORAGE_KEY` constants": [
+      {
+        "executionId": "5e4b41c8-cde2-4e86-bbba-afc5a4df33b8",
+        "chatSessionId": "sess_fd3e0545-2d75-43f1-a6b7-eb9b5389ab50",
+        "timestamp": 1789773025264
+      },
+      {
+        "executionId": "5e4b41c8-cde2-4e86-bbba-afc5a4df33b8",
+        "chatSessionId": "sess_fd3e0545-2d75-43f1-a6b7-eb9b5389ab50",
+        "timestamp": 1789773141966
+      }
+    ],
+    "3.2 Implement `StorageService.load()` with deserialization guard": [
+      {
+        "executionId": "5e4b41c8-cde2-4e86-bbba-afc5a4df33b8",
+        "chatSessionId": "sess_fd3e0545-2d75-43f1-a6b7-eb9b5389ab50",
+        "timestamp": 1789773147180
+      },
+      {
+        "executionId": "5e4b41c8-cde2-4e86-bbba-afc5a4df33b8",
+        "chatSessionId": "sess_fd3e0545-2d75-43f1-a6b7-eb9b5389ab50",
+        "timestamp": 1789773191037
+      }
+    ],
+    "3.3 Implement `StorageService.save(transactions)`": [
+      {
+        "executionId": "5e4b41c8-cde2-4e86-bbba-afc5a4df33b8",
+        "chatSessionId": "sess_fd3e0545-2d75-43f1-a6b7-eb9b5389ab50",
+        "timestamp": 1789773147500
+      },
+      {
+        "executionId": "5e4b41c8-cde2-4e86-bbba-afc5a4df33b8",
+        "chatSessionId": "sess_fd3e0545-2d75-43f1-a6b7-eb9b5389ab50",
+        "timestamp": 1789773191639
+      }
+    ],
+    "3. Implement data constants and `StorageService`": [
+      {
+        "executionId": "5e4b41c8-cde2-4e86-bbba-afc5a4df33b8",
+        "chatSessionId": "sess_fd3e0545-2d75-43f1-a6b7-eb9b5389ab50",
+        "timestamp": 1789773191931
+      }
+    ],
+    "4.1 Define `State` object and implement `Validator.validateForm(data)`": [
+      {
+        "executionId": "8626f6e2-bbdf-408f-88fd-6bc4ef251655",
+        "chatSessionId": "sess_ba6f53e4-c1d8-46cf-b1b7-2971f48b767c",
+        "timestamp": 1789773269404
+      },
+      {
+        "executionId": "8626f6e2-bbdf-408f-88fd-6bc4ef251655",
+        "chatSessionId": "sess_ba6f53e4-c1d8-46cf-b1b7-2971f48b767c",
+        "timestamp": 1789773318292
+      }
+    ],
+    "4. Implement `State` and `Validator`": [
+      {
+        "executionId": "8626f6e2-bbdf-408f-88fd-6bc4ef251655",
+        "chatSessionId": "sess_ba6f53e4-c1d8-46cf-b1b7-2971f48b767c",
+        "timestamp": 1789773318799
+      }
+    ],
+    "5.1 Implement `Renderer.renderList(transactions)` and `Renderer.renderBalance(transactions)`": [
+      {
+        "executionId": "86e338eb-2d15-4a7e-bd28-a86923e2ea20",
+        "chatSessionId": "sess_1e76900a-c11f-4746-907c-d6a074712808",
+        "timestamp": 1789773360520
+      },
+      {
+        "executionId": "86e338eb-2d15-4a7e-bd28-a86923e2ea20",
+        "chatSessionId": "sess_1e76900a-c11f-4746-907c-d6a074712808",
+        "timestamp": 1789773446913
+      }
+    ],
+    "5.5 Implement `Renderer.renderErrors`, `Renderer.clearErrors`, `Renderer.clearForm`, and `Renderer.showStorageError`": [
+      {
+        "executionId": "86e338eb-2d15-4a7e-bd28-a86923e2ea20",
+        "chatSessionId": "sess_1e76900a-c11f-4746-907c-d6a074712808",
+        "timestamp": 1789773366299
+      },
+      {
+        "executionId": "86e338eb-2d15-4a7e-bd28-a86923e2ea20",
+        "chatSessionId": "sess_1e76900a-c11f-4746-907c-d6a074712808",
+        "timestamp": 1789773452004
+      },
+      {
+        "executionId": "96dc9f66-4287-4561-afef-74990a9cc94c",
+        "chatSessionId": "sess_bbea5657-375b-4a73-b267-1730f92467a9",
+        "timestamp": 1789773491006
+      },
+      {
+        "executionId": "96dc9f66-4287-4561-afef-74990a9cc94c",
+        "chatSessionId": "sess_bbea5657-375b-4a73-b267-1730f92467a9",
+        "timestamp": 1789773519628
+      }
+    ],
+    "5. Implement `Renderer`": [
+      {
+        "executionId": "86e338eb-2d15-4a7e-bd28-a86923e2ea20",
+        "chatSessionId": "sess_1e76900a-c11f-4746-907c-d6a074712808",
+        "timestamp": 1789773452529
+      }
+    ]
+  }
+}
